@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("../imagenes/IMG_1378.jpg");
+    background-repeat: no-repeat;
+    background-position: right 35% bottom 45%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: var(--fuente-experiencia);
+   
+}
+.encabezado__titulo{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+    font-size: 3.8em;
+}
+.encabezado__subtitulo{
+    font-size: 1.7em;
+}
+.encabezado__boton{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-size: 1.4em;
+    background-color: rgb(228, 139, 154);
+    outline: 0px solid #FF3F9A;
+    transition: outline 1s ease 0s;
+}
+.encabezado__boton:hover{
+    outline: 4px solid #C3FAC4;
+}
+
+
+
+
+@media (min-width: 992px) {
+    .encabezado__boton{
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10%;
+        color: white;
+        text-shadow: 0.1em 0.1em 0.2em black;
+        font-size: 1em;
+        background-color: rgb(228, 139, 154)
+    }
+
+}
+

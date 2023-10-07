@@ -1,0 +1,84 @@
+body{
+    overflow: hidden;
+}
+.menu{
+    background-color: var(--color-fondo-principal);
+}
+.menu__icono{
+    font-size: 3em;
+    color: white;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.redesSociales__imagen{
+    height: 45px;
+}
+
+/*Estilo para los estudios*/
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    cursor: pointer;
+
+}
+/*Estilos para el article*/
+.seccion__articulo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:flex-start;
+    align-items: center;
+    height: 95vh;
+    padding-top: 80px;
+    
+    background-color: var(--color-fondo-principal);
+}
+.articulo__video{
+    width: 350px;
+    height: 200px;
+}
+
+
+
+
+/*Pantallas enteras*/
+@media (min-width: 992px) {
+    .articulo__video{
+        width: 560px;
+        height: 355px;
+    }
+    .seccion__articulo{
+        height: 95vh;
+    }
+    .redesSociales__imagen{
+        height: 35px;
+    }
+    
+}
+
+
+
+/*Tablets*/
+
+@media (min-width: 768px) {
+
+    .articulo__video{
+        width: 560px;
+        height: 355px;
+    }
+}
+
+
+/*Moviles en horizontal*/
+@media (min-width: 660px) {
+
+    .articulo__video{
+        margin-top: -80px;
+        width: 460px;
+        height: 215px;
+    }
+    .redesSociales__imagen{
+        height: 35px;
+    }
+}
