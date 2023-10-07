@@ -1,3 +1,3 @@
 # CVWeb
-[Enlace](https://carlotamdez96.github.io/CVWeb/index.html);
+[Enlace](https://onlyluu.github.io/CVLuciaM/)
 
